@@ -49,12 +49,12 @@
         <input type="text" id="captcha" name="captcha" >
         <span>R A T</span>
 
-        <div>
+        <div >
             <input type="checkbox" id="terms" name="terms" >
             <label for="terms">Tôi đồng ý với <a href="#">Quy định đăng tin</a> và <a href="#">Quy chế thành viên</a>.</label>
         </div>
 
-        <button type="submit" onclick="validform(document.forms.form1)">Đăng ký</button>
+        <button type="submit" onclick="validform(event, document.forms.form1)">Đăng ký</button>
         <button type="reset">Làm lại</button>
         
     </form>
